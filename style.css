@@ -3,4 +3,7 @@
     background-color:hsl(212, 99%, 73%);
     background-image:url("assets/masthead.jpg");
     background-repeat:no-repeat;
+    height:100vh;
+    width:100vm;
+    background-position: 50% 50%;
     }
