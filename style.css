@@ -1,19 +1,54 @@
 .hero {
-    color:white;
-    background-color:hsl(212, 99%, 73%);
-    background-image:url("assets/masthead.jpg");
-    background-repeat:no-repeat;
-    height:100vh;
-    width:100vw;
-    background-position: 50% 50%;
-    background-size: cover;
-    
-    }
+  color: white;
+  background-color: hsl(212, 99%, 73%);
+  background-image: url("assets/masthead.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: 50% 50%;
+  background-size: cover;
+}
 
-.brand-logo { size : 5 px;}
+.brand-logo {
+  position: absolute;
+  left: 25px;
+  top: 15px;
+}
 
-h1
-{position: absolute; top: 350px; left: 25px}
+.brand-logotxt {
+  position: absolute;
+  left: 70px;
+  top: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+  font-weight: 100;
+  font-style: italic;
+}
 
-.herotxt
-{position: absolute; top: 480px; left: 25px}
+h1 {
+  position: absolute;
+  top: 350px;
+  left: 25px;
+  font-weight: 500;
+}
+
+.herotxt {
+  position: absolute;
+  top: 480px;
+  left: 25px;
+  font-size: xx-small;
+}
+
+p {
+  font-family: Arial;
+}
+
+h3 {
+  font-family: Arial;
+  font-weight: 500;
+}
+.introtxt {
+  font-size: xx-small;
+  color: grey;
+  font-weight: bolder;
+}
