@@ -12,7 +12,7 @@ pour aérer le contenu que chaque section  */
 }
 .hero {
   color: white;
-  background-image: url('assets/masthead.jpg');
+  background-image: url("assets/masthead.jpg");
   height: 100vh;
   width: 100vw;
   background-position: 50% 50%;
@@ -27,7 +27,7 @@ pour aérer le contenu que chaque section  */
   height: 2rem;
 }
 .appbar-title {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   font-weight: 100;
   font-size: 2rem;
@@ -76,11 +76,11 @@ h3 {
 }
 
 .card3 {
-  background-image: url('assets/box-bg.jpg');
+  background-image: url("assets/box-bg.jpg");
 }
 
 .card4 {
-  background-image: url('assets/box-bg-lg.jpg');
+  background-image: url("assets/box-bg-lg.jpg");
 }
 
 .card5 {
@@ -92,13 +92,12 @@ h3 {
 }
 
 .down {
-  position: absolute;
   top: 100em;
+  color: white;
 }
 
-.image {
-  height: 10em;
-  width: 50em;
+.imagefond {
+  height: 30em;
+  width: 40em;
   background-position: 50% 50%;
-  background-size: cover;
 }
