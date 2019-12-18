@@ -96,8 +96,10 @@ h3 {
   color: white;
 }
 
-.imagefond {
-  height: 30em;
-  width: 40em;
+.image {
+  background-image: url("assets/full-image.jpg");
+  height: 30vh;
+  width: 100vw;
   background-position: 50% 50%;
+  background-size: cover;
 }
