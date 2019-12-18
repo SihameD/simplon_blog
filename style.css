@@ -52,3 +52,35 @@ h3 {
   color: grey;
   font-weight: bolder;
 }
+
+.cards {
+}
+
+.card1 {
+  background-color: lightcoral;
+}
+
+.card2 {
+  background-color: blueviolet;
+}
+
+.card3 {
+  background-image: url("assets/box-bg.jpg");
+}
+
+.card4 {
+  background-image: url("assets/box-bg-lg.jpg");
+}
+
+.card5 {
+  background-color: cyan;
+}
+
+.parag_details {
+  font-size: xx-small;
+}
+
+.down {
+  position: absolute;
+  top: 100em;
+}
