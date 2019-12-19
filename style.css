@@ -24,30 +24,31 @@ pour aérer le contenu que chaque section  */
   flex-direction: row;
 }
 .appbar-logo {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 .appbar-title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
 }
 /* fin de mes modifs */
 
 h1 {
-  position: absolute;
-  top: 350px;
-  left: 25px;
+  position: relative;
+  top: 10em;
+  left: 0.5em;
   font-weight: 500;
+  font-size: 2.5em;
 }
 
 .herotxt {
-  position: absolute;
-  top: 480px;
-  left: 25px;
+  position: relative;
+  top: 42em;
+  left: 2em;
   font-size: xx-small;
 }
 
@@ -66,26 +67,111 @@ h3 {
 }
 
 .cards {
+  padding: 0 2rem;
+  margin: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .card1 {
   background-color: lightcoral;
+  height: 9em;
+}
+
+.c1_txt_a {
+  position: relative;
+  top: 0.5em;
+  left: 2em;
+}
+
+.c1_txt_b {
+  position: relative;
+  top: 0em;
+  left: 3.5em;
+  font-size: xx-small;
 }
 
 .card2 {
-  background-color: blueviolet;
+  background-color: #645e8d;
+  height: 9em;
+}
+
+.c2_txt_a {
+  position: relative;
+  top: 0.5em;
+  left: 2em;
+}
+
+.c2_txt_b {
+  position: relative;
+  top: 0em;
+  left: 3.5em;
+  font-size: xx-small;
 }
 
 .card3 {
   background-image: url("assets/box-bg.jpg");
+  height: 9em;
+}
+
+.c3_txt_a {
+  position: relative;
+  top: 0.5em;
+  left: 2em;
+}
+
+.c3_txt_b {
+  position: relative;
+  top: 0em;
+  left: 3.5em;
+  font-size: xx-small;
 }
 
 .card4 {
   background-image: url("assets/box-bg-lg.jpg");
+  height: 9em;
+}
+
+.c4_txt_a {
+  position: relative;
+  top: 0.5em;
+  left: 2em;
+}
+
+.c4_txt_b {
+  position: relative;
+  top: 0em;
+  left: 3.5em;
+  font-size: xx-small;
 }
 
 .card5 {
-  background-color: cyan;
+  background-color: rgb(110, 199, 144);
+  height: 9em;
+}
+
+.c5_txt_a {
+  position: relative;
+  top: 0.5em;
+  left: 2em;
+}
+
+.c5_txt_b {
+  position: relative;
+  top: 0em;
+  left: 3.5em;
+  font-size: xx-small;
+}
+
+.c_link {
+  color: white;
+  font-size: 10px;
+  position: relative;
+  top: 0.5em;
+  left: 3.1em;
+  font-weight: bolder;
+  text-decoration: none;
 }
 
 .parag_details {
