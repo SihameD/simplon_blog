@@ -222,3 +222,24 @@ h6 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.onboard {
+  background-color: rgb(110, 199, 144);
+  height: 30em;
+  padding: 4em 2em;
+}
+
+.green {
+  font-family: Arial;
+  font-weight: 500;
+  color: white;
+}
+.parag_onboard {
+  font-size: 10px;
+  color: white;
+  font-weight: bolder;
+}
+
+.on6 {
+  color: white;
+}
