@@ -243,3 +243,140 @@ h6 {
 .on6 {
   color: white;
 }
+
+.actions {
+  background-color: rgb(245, 252, 232);
+  height: 45em;
+  padding: 4em 2em;
+}
+
+.t1 {
+  color: rgb(37, 36, 36);
+  position: relative;
+  top: 3em;
+}
+.t2 {
+  color: rgb(37, 36, 36);
+  position: relative;
+  top: 11em;
+}
+
+.parag_act {
+  font-size: 10px;
+  color: rgb(145, 140, 140);
+  font-weight: bolder;
+  position: relative;
+  top: 6em;
+  line-height: 2em;
+}
+
+.parag_act2 {
+  font-size: 10px;
+  color: rgb(145, 140, 140);
+  font-weight: bolder;
+  position: relative;
+  top: 26em;
+  line-height: 2em;
+}
+
+.logo1 {
+  width: 6em;
+  height: 3em;
+  position: absolute;
+  top: 263em;
+  left: 2em;
+}
+
+.logo2 {
+  width: 6em;
+  height: 3em;
+  position: absolute;
+  top: 285em;
+  left: 2em;
+}
+
+.b_lega {
+  background-color: rgb(212, 212, 219);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  top: 3em;
+}
+
+.b_buy9 {
+  background-color: rgb(110, 199, 144);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  top: 5em;
+}
+
+.b_popular {
+  background-color: rgb(150, 112, 150);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 270em;
+  left: 2em;
+}
+
+.b_buy18 {
+  background-color: rgb(110, 199, 144);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  top: 17.5em;
+}
+
+.footer {
+  background-color: rgb(4, 21, 39);
+  height: 30em;
+  padding: 4em 2em;
+}
+
+.txt_footer {
+  font-size: 10px;
+  color: white;
+  font-weight: bolder;
+}
+
+form {
+  width: 280px;
+}
+
+.downtxt {
+  font-size: 8px;
+  color: rgb(92, 89, 89);
+  position: absolute;
+  top: 618em;
+}
+
+.list {
+  font-size: 10px;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+}
+
+.contain_list {
+  display: flex;
+  justify-content: row;
+  justify-content: space-between;
+}
