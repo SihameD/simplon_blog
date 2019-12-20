@@ -251,7 +251,7 @@ h6 {
   padding: 4em 2em;
 }
 
-.details h2:first-child {
+.onboard h2:first-child {
   grid-column: span 12;
 }
 .onboard div {
@@ -263,12 +263,7 @@ h6 {
     gap: 3rem;
   }
   .onboard div {
-    grid-column: span 6;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .onboard div {
-    grid-column: span 3;
+    grid-column: span 4;
   }
 }
 
